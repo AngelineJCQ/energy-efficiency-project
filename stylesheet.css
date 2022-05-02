@@ -19,18 +19,36 @@ html, body {
     padding-right: 30px;
 }
 
+.tail {
+    max-width: 760px;
+    margin: 0px auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.tail p{
+    margin-top: 16px;
+    font-size: large;
+    font-family: 'Fira Sans', sans-seri;
+    font-weight: 400;
+    line-height: 30px;
+    font-style: italic;
+}
+
 .tag {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Mako', sans-serif;
     font-weight: 300;
     color:#4c6b66;
     line-height: 14px;
-    font-size: 14px;
+    font-size: 16px;
     text-align: left;
     margin-top: 50px;
 }
 
 h1 {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fira Sans', sans-seri;
     color:#065448;
     font-size: 40px;
     line-height: 60px;
@@ -38,15 +56,15 @@ h1 {
 }
 
 .byline {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Mako', sans-serif;
     color:#747474;
     line-height: 14px;
-    font-size: 16px;
+    font-size: 18px;
     text-align: left;
 }
 
 .date {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Mako', sans-serif;
     color:#747474;
     line-height: 10px;
     font-size: 14px;
@@ -56,22 +74,35 @@ h1 {
 .chart{
     margin: 0px auto;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 p {
     margin-top: 20px;
     font-size: large;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Marcellus', serif;
     font-weight: 400;
     line-height: 30px;
 }
 
 .note {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Mako', sans-serif;
     font-style: italic;
     margin: 0px auto;
     font-size: 0.9;
     color: grey;
     text-align: center;
 }
+
+a:link, a:visited {
+    color: #7a4c2c;
+    text-decoration: underline;
+    cursor: auto;
+  }
+  
+  a:link:active, a:visited:active {
+    color: #aa6d41;
+  }
+
+
