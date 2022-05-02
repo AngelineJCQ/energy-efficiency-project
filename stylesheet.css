@@ -1,0 +1,77 @@
+html, body {
+    margin: 0;
+    background-color:#f4f0e6;
+}
+
+.title-container {
+    max-width: 760px;
+    margin: 0px auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom:20px;
+}
+
+
+.text-container {
+    max-width: 760px;
+    margin: 0px auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.tag {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color:#4c6b66;
+    line-height: 14px;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    color:#065448;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: left;
+}
+
+.byline {
+    font-family: 'Open Sans', sans-serif;
+    color:#747474;
+    line-height: 14px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.date {
+    font-family: 'Open Sans', sans-serif;
+    color:#747474;
+    line-height: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.chart{
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+p {
+    margin-top: 20px;
+    font-size: large;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.note {
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    margin: 0px auto;
+    font-size: 0.9;
+    color: grey;
+    text-align: center;
+}
